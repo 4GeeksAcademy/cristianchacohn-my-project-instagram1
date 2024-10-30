@@ -36,9 +36,14 @@ body {
     margin-bottom: 10px;
 }
 .post__titlehtml5 {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     color: #333;
+}
+.post__subtitle {
+    font-size: 10px;
+    
+    color: #747272;
 }
 .post__date {
     font-size: 14px;
@@ -54,4 +59,16 @@ body {
     font-size: 14px;
     color: #555;
     line-height: 1.5;
+}
+.post__ubicacion {
+    display: flex;
+    flex-direction: column;
+}
+.post__autor {
+    display: flex;
+    gap: 10px;
+}
+.post__icons {
+    display: flex;
+    justify-content: space-between;
 }
